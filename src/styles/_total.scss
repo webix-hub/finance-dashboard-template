@@ -1,0 +1,28 @@
+.totalItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 17px 17px 17px 17px;
+}
+.totalCell {
+    align-items: flex-start;
+    flex-direction: column;
+    gap:8px;
+}
+
+.totalTitle {
+    line-height: 20px;
+}
+.totalType {
+    font-size: 12px;
+    line-height: 16px;
+    color: #94A1B3;
+}
+.totalSum {
+    font-size: 16px;
+    line-height: 20px;
+}
+.totalCellSum {
+    flex-direction: row;
+    gap: 14px;
+}

@@ -1,0 +1,27 @@
+.infoItem {
+   border: none;
+}
+.infoItem:hover{
+    background: rgba(204, 215, 229, 0.4);
+    border-radius: 12px;
+}
+.infoImg {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(245, 204, 71);
+    border-radius: 50%;
+}
+.infoTitle {
+    color: #475466;
+    width: 50%;
+}
+
+.container {
+    height: 100%;
+    padding: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.company {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 10px;
+    height: 100%;
+}
+.companyName {
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400 !important;
+    color: #94A1B3;
+}

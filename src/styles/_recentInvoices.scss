@@ -1,0 +1,21 @@
+.recipient {
+    align-items: center;
+}
+.recipientAvatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    img {
+        display: block;
+        border-radius: 50%;
+        height: 100%;
+    }
+}
+
+.invoicesTable .webix_hcell, .invoicesTable .webix_hs_center {
+    background: white;
+}
+
+.width span {
+    display: inline-block;
+}

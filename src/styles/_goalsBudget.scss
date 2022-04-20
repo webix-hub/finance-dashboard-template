@@ -1,0 +1,44 @@
+.carousel {
+    .webix_nav_button_side {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+
+        &.webix_nav_button_prev {
+            left: 15px;
+            .webix_nav_button_inner {
+                &:hover, &:focus {
+                    background: none;
+                }
+            }
+        }
+
+        &.webix_nav_button_next {
+            right: 15px;
+            .webix_nav_button_inner {
+                &:hover, &:focus {
+                    background: none;
+                }
+            }
+        }
+    }
+    .webix_nav_button_next,
+    .webix_nav_button_prev {
+        .webix_nav_button_inner {
+            &:hover, &:focus {
+                color: rgb(56, 53, 53);
+            }
+            background: none;
+            color: #94A1B3;
+            font-size: 24px;
+        }
+    } 
+   
+}
+.number {
+    font-size: 20px;
+    color: rgba(134, 100, 198, 1);
+}

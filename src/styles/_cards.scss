@@ -1,0 +1,21 @@
+.cardButton .webix_button {
+	color: #1CA1C1;
+    text-align: left;
+    pointer-events: none;
+	.mdi {
+		color: #1CA1C1 !important;
+	}
+}
+
+.webix_el_radio .webix_label_right { 	  
+   white-space:pre-wrap;
+   padding-top: 26px;
+}
+.cardImg .webix_template { 	  
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.cardImg img { 	  
+    max-width: 100%
+}
+

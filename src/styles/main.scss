@@ -1,0 +1,98 @@
+@import "header";
+@import "sidebar";
+@import "total";
+@import "recentInvoices";
+@import "cards";
+@import "category";
+@import "goalsBudget";
+@import "quickTransactions";
+@import "stocks";
+
+.flex {
+	display: flex;
+}
+.thick {
+    font-weight: 500;
+}
+.thin {
+    font-weight: 400;
+}
+.align {
+    text-align: center; 
+}
+.space {
+    br {
+        display: block;
+        margin: 10px 0;
+        content: " ";
+    }
+
+}
+.status {
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 21px;
+    padding: 1px 10px 0;
+}
+.green {
+    color: #1B9D63;
+    background: rgba(85, 205, 151, 0.25);
+}
+.red {
+    color: #DE2F2F;
+    background: rgba(255, 92, 76, 0.25);
+}
+.filter {
+    .mdi {
+        color: #94A1B3;
+    }
+    .webix_inp_label {
+        padding: 1px 0 0;
+    }
+    .webix_placeholder {
+        color: #475466;
+    }
+    .webix_inp_static {
+        border: none;
+        padding-left: 4px;
+        padding-right: 18px;
+        margin-top: 3px;
+        font-size: 12px;
+        &:focus {
+            border: none;
+        }
+    }
+    span.webix_input_icon {
+        width: 20px;
+        margin-top: 2px;
+        padding-left: 0px;
+    }
+}
+.suggestList {
+    .webix_list_item {
+        font-size: 12px;
+        line-height: 33px;
+    }
+}
+.customTable {
+    .customIcon {
+        vertical-align: middle;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &.mdi-checkbox-marked {
+            color: #1CA1C1;
+        }
+        &.mdi-checkbox-blank-outline {
+            color: #94A1B3;
+        }
+    }
+    .webix_first {
+        .webix_cell, &.webix_hcell {
+            padding: 0 7px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.navy     { background-color: rgba(28, 161, 193, 0.5); &>span { background-color: #1CA1C1;}}
+.grass    { background-color: rgba(85, 205, 151, 0.5); &>span { background-color: #55CD97;}}
+.yellow   { background-color: rgba(253, 191, 76, 0.5); &>span { background-color: #FDBF4C;}}
+.purple   { background-color: rgba(134, 100, 198, 0.5); &>span { background-color: #8664C6;}}
+.ruby     { background-color: rgba(255, 92, 76, 0.5); &>span { background-color: #FF5C4C;}}
+.greenish { background-color: rgba(72, 173, 131, 0.5); &>span { background-color: #48AD83;}}
+.blue     { background-color: rgba(28, 114, 193, 0.5); &>span { background-color: #1C72C1;}}
+
+.categoryItemWrapp {
+    border-color: transparent;
+    align-items: center;
+    padding: 12px 12px 0;
+}
+.categorytItem {
+    flex-direction: column;
+    border-bottom: 1px solid #EDEFF0;
+    width: 100%;
+}
+
+.categoryLevel {
+    border-radius: 14px;
+    overflow: hidden;
+    height: 8px;
+    width: 100%;
+    margin: 4px 0;
+    &>span {
+        height: 100%;
+    }
+}
+.categoryInfo {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+.categoryTransactions {
+    font-size: 12px;
+    line-height: 16px;
+    color: #94A1B3;
+}
+.sign, .categoryTotal {
+    color: rgba(71, 84, 102, 0.7);
+
+}
